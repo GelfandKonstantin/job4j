@@ -10,7 +10,7 @@ package ru.job4j.calculate;
 	* Конструктор, вывод строки в консоль.
 	* @param arg - arg.
 	*/
-	public static void main(String[] args) {
+	public static void main(String[] arg) {
 		System.out.println("Hello World");
 	}
 
