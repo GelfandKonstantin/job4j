@@ -7,21 +7,21 @@ package ru.job4j.calculate;
  * @version $Id$
  * @since 0.1
  */
- public class Calculate {
+public class Calculate {
 	/**
-	* Main.
-	* @param arg - arg.
-	*/
-	public static void main(String[] arg) {
+	 * Main.
+	 * @param args - args.
+	 */
+	public static void main(String[] args) {
 		System.out.println("Hello World");
 	}
-    /**
+	/**
 	 *Method echo.
 	 *@param name Konstantin.
 	 *@return Echo plus your name.
 	 */
 	public String echo(String name) {
-         return "Echo, echo, echo : " + name;
-    }	
+		return "Echo, echo, echo : " + name;
+	}
 }
 	
