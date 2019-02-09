@@ -1,8 +1,12 @@
 package ru.job4j.calculate;
 
 public class CarUsage {
+	private static boolean canDrive() {
+		return true;
+	}
+	
 	public static void main (String[] args) {
-		Car opel = Newcar();
+		Car opel = new Newcar();
 		boolean driving = CarUsage.canDrive();
 		System.out.println("Can you drive?:" + driving);
 		System.out.println("I am going to a gas station.");

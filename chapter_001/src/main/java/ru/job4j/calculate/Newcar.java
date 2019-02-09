@@ -1,6 +1,6 @@
 package ru.job4j.calculate;
 
-class Newcar {
+class Newcar extends Car{
 	
 
 }
