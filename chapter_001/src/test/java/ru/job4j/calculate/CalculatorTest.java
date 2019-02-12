@@ -14,6 +14,8 @@ public class CalculatorTest  {
         double expected = 2D;
         assertThat(result, is(expected));
     }
+	
+	@Test
     public void whenSubtractOneMinusOneThenZero()  {
         Calculator calc = new Calculator();
         calc.subtract(1D, 1D);
@@ -21,7 +23,8 @@ public class CalculatorTest  {
         double expected = 0D;
         assertThat(result, is(expected));
     }
-
+	
+    @Test
     public void whenMultipleOneMultipleOneThenOne()  {
         Calculator calc = new Calculator();
         calc.multiple(1D, 1D);
@@ -29,7 +32,8 @@ public class CalculatorTest  {
         double expected = 1D;
         assertThat(result, is(expected));
     }
-
+	
+    @Test
     public void whenDivOneDivOneThenOne()  {
         Calculator calc = new Calculator();
         calc.div(1D, 1D);
