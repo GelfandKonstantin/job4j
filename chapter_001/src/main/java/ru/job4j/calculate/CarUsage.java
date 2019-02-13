@@ -5,7 +5,7 @@ public class CarUsage {
         return true;
     }
 
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Car opel = new Newcar();
         boolean driving = CarUsage.canDrive();
         System.out.println("Can you drive?:" + driving);

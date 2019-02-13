@@ -20,7 +20,7 @@ public class Calculate {
 	 * Method echo.
 	 * @return Echo plus your name.
 	 */
-	String echo () {
+	String echo() {
 		return echo();
 	}
 
