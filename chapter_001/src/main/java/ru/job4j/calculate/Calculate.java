@@ -26,9 +26,9 @@ public class Calculate {
 
 
 	/**
-	 *Method echo.
-	 *@param name Konstantin.
-	 *@return Echo plus your name.
+	 * Method echo.
+	 * @param name Konstantin.
+	 * @return Echo plus your name.
 	 */
 	String echo(String name) {
 		return "Echo, echo, echo : " + name;
