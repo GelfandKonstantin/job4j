@@ -17,8 +17,8 @@ public class Calculate {
 	}
 
 	/**
-	 *Method echo.
-	 *@return Echo plus your name.
+	 * Method echo.
+	 * @return Echo plus your name.
 	 */
 	String echo () {
 		return echo();
