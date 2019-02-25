@@ -1,5 +1,6 @@
 package ru.job4j.calculate;
 
+import org.hamcrest.core.Is;
 import org.hamcrest.number.IsCloseTo;
 import org.junit.Test;
 
@@ -12,8 +13,8 @@ public class PointTest {
 
     public void whenHasTwoPointThenReturnDistance() {
         final Point first = new Point(0, 0);
-        final Point second = new Point(0, 1);
+        final Point second = new Point(3, 4);
         double result = first.distanceTo(second);
-        assertThat(result, CloseTo(1d));
+        assertThat(result, Is(5.0));
     }
 }
